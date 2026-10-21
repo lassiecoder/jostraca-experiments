@@ -1,0 +1,15 @@
+{
+  "name": "jostraca-experiments",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Reproducible tests of Jostraca's merge, protect and replace behaviour",
+  "type": "module",
+  "scripts": {
+    "all": "for f in 0*.mjs; do echo \"== $f\"; node \"$f\"; done"
+  },
+  "author": "Priyanka Sharma (https://github.com/lassiecoder)",
+  "license": "MIT",
+  "dependencies": {
+    "jostraca": "0.40.0"
+  }
+}
